@@ -1,0 +1,75 @@
+@import '@styles/variables';
+
+.footer {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: end;
+	width: 100vw;
+	height: 900px;
+	background-image: url('/src/assets/map.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	clip-path: polygon(100% 20%, 100% 100%, 0 100%, 0 0);
+}
+
+.footer_list {
+	display: grid;
+	grid-template-rows: repeat(2, auto);
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px 50px;
+	box-sizing: content-box;
+	width: 980px;
+	padding: 30px 30px 20px;
+	color: #747780;
+	font-size: 13px;
+	background-color: #ffffff;
+}
+
+.listItem {
+	display: grid;
+	grid-template-columns: 0.5fr 2fr;
+}
+
+.item_list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.phons {
+	grid-row-start: 2;
+}
+
+.messages {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.mail {
+	color: $accent;
+}
+
+.copyright {
+	align-content: flex-end;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.marker {
+	position: absolute;
+	top: 33%;
+	left: 48%;
+	transform: translateY(33%);
+	transform: translateX(48%);
+}
+
+@media (width <= 768px) {
+	.footer_list {
+		grid-template-columns: 1fr;
+	}
+}

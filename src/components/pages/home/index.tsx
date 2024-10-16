@@ -1,9 +1,11 @@
 import { FC } from 'react'
 
-import style from './style.module.scss'
-import { Header } from '@components/ui/header'
 import { Hero } from '@components/ui/hero'
 import { About } from '@components/ui/about'
+import { Header } from '@components/ui/header'
+import { Footer } from '@components/ui/footer'
+
+import style from './style.module.scss'
 
 export const HomePage: FC = () => (
 	<div className={style.page}>
@@ -12,5 +14,6 @@ export const HomePage: FC = () => (
 			<Hero />
 			<About />
 		</main>
+		<Footer />
 	</div>
 )
