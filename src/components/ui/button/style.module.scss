@@ -1,0 +1,33 @@
+@import '@styles/variables';
+
+.button {
+	padding: 10px 25px;
+	font-weight: bold;
+	font-size: 16px;
+	border: 0;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.button:active {
+	filter: brightness(70%);
+}
+
+.fill {
+	color: #ffffff;
+	background-color: $accent;
+	transition: all 0.3s;
+}
+
+.outlined {
+	color: $accent;
+	background-color: transparent;
+	outline: 2px solid #979ba6;
+	transition: all 0.3s;
+}
+
+.outlined:hover {
+	color: #ffffff;
+	background-color: $accent;
+	outline: 2px solid transparent;
+}

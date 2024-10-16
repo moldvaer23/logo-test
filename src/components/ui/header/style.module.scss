@@ -1,0 +1,65 @@
+@import '@styles/variables';
+
+.header {
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+	width: 100%;
+	max-width: 960px;
+	padding-top: 30px;
+}
+
+.info {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e0e1e1;
+}
+
+.logo {
+	font-size: 45px;
+}
+
+.logo_bold {
+	color: #515359;
+	font-weight: bold;
+}
+
+.logo_light {
+	color: $accent;
+	font-weight: lighter;
+}
+
+.contacts {
+	display: flex;
+	align-items: center;
+	gap: 35px;
+}
+
+.phone_wrapper {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.logo_phone {
+	width: 24px;
+	height: 24px;
+	stroke: $accent;
+}
+
+.phone {
+	color: #5d5e64;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.nav_list {
+	display: flex;
+	gap: 55px;
+	padding-bottom: 10px;
+	color: #515359;
+	font-weight: bold;
+	font-size: 13px;
+	text-transform: uppercase;
+}

@@ -1,8 +1,4 @@
 import { FC } from 'react'
-import style from './style.module.scss'
+import { HomePage } from '@components/pages/home'
 
-export const App: FC = () => (
-	<div className={style.page}>
-		<span>Приложение запущено!</span> <button>Привет!</button>
-	</div>
-)
+export const App: FC = () => <HomePage />
