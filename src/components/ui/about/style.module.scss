@@ -1,0 +1,36 @@
+@import '@styles/variables';
+
+.about {
+	display: flex;
+	gap: 80px;
+	max-width: 960px;
+	margin-top: 35px;
+}
+
+.info h2 {
+	margin-bottom: 120px;
+	color: #3a3c40;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.info p {
+	color: #747780;
+	font-size: 16px;
+	line-height: 2;
+}
+
+.bold {
+	color: #515359;
+	font-weight: bold;
+}
+
+.accent {
+	color: $accent;
+	font-weight: bold;
+}
+
+.book_image {
+	display: flex;
+	align-items: center;
+}
