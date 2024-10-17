@@ -1,5 +1,6 @@
 import { FC } from 'react'
 
+import mac from '@assets/mac.png'
 import { Button } from '@components/ui/button'
 
 import style from './style.module.scss'
@@ -19,7 +20,7 @@ export const Hero: FC = () => (
 			</p>
 			<Button text='Заказать сайт' variant='fill' />
 		</div>
-		<img className={style.mac} src='/src/assets/mac.png' alt='mac' />
+		<img className={style.mac} src={mac} alt='mac' />
 		<div className={style.background} />
 	</section>
 )

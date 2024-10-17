@@ -1,5 +1,9 @@
 import { FC } from 'react'
 
+import pencil from '@assets/pencil.png'
+import camera from '@assets/camera.png'
+import book from '@assets/note-book.png'
+
 import style from './style.module.scss'
 
 export const About: FC = () => (
@@ -36,10 +40,10 @@ export const About: FC = () => (
 			</div>
 		</div>
 		<div>
-			<img src='/src/assets/camera.png' alt='camera' />
+			<img src={camera} alt='camera' />
 			<div className={style.bookImage}>
-				<img src='/src/assets/note-book.png' alt='note-book' />
-				<img src='/src/assets/pencil.png' alt='pencil' />
+				<img src={book} alt='note-book' />
+				<img src={pencil} alt='pencil' />
 			</div>
 		</div>
 	</section>

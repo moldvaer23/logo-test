@@ -2,6 +2,8 @@ import { FC } from 'react'
 
 import classNames from 'classnames'
 
+import marker from '@assets/marker.png'
+
 import style from './style.module.scss'
 
 export const Footer: FC = () => (
@@ -36,6 +38,6 @@ export const Footer: FC = () => (
 				<span>© 1997-2014 WebStore</span>
 			</div>
 		</div>
-		<img className={style.marker} src='/src/assets/marker.png' alt='marker' />
+		<img className={style.marker} src={marker} alt='marker' />
 	</footer>
 )
