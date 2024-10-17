@@ -1,4 +1,5 @@
 import { FC } from 'react'
+
 import classNames from 'classnames'
 
 import style from './style.module.scss'

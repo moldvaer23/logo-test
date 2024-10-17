@@ -7,6 +7,12 @@
 	margin-top: 35px;
 }
 
+.text {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
 .info h2 {
 	margin-bottom: 120px;
 	color: #3a3c40;

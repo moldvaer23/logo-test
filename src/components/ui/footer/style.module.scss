@@ -67,9 +67,3 @@
 	transform: translateY(33%);
 	transform: translateX(48%);
 }
-
-@media (width <= 768px) {
-	.footer_list {
-		grid-template-columns: 1fr;
-	}
-}

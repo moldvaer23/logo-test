@@ -12,7 +12,6 @@ export const Header: FC = () => (
 				<span className={style.logoBold}>Web</span>
 				<span className={style.logoLight}>Store</span>
 			</div>
-
 			<div className={style.contacts}>
 				<div className={style.phoneWrapper}>
 					<PhoneLogo className={style.logoPhone} />
@@ -22,7 +21,6 @@ export const Header: FC = () => (
 				<Button text='Заказать сайт' variant='outlined' />
 			</div>
 		</div>
-
 		<nav>
 			<ul className={style.navList}>
 				<li>
